@@ -26,6 +26,7 @@ Player: The Player class represents a player in the game. It contains the follow
 
 Player name (string)
 Piece color (string): Either "black" or "white"
+
 Othello: The Othello object represents the game as played. It contains information about the players and the board. Name the board as "board", so we could access each position value on the board by self._board[row][column]. It must include those methods (but may have more):
 
 print_board(self): print out the current board, including the boundaries
